@@ -36,8 +36,7 @@
     [combiningArr addObject:sortedNumArr];
     [combiningArr addObject:[enumer allObjects]];
     
-    return combiningArr;
-//    return [NSArray arrayWithArray:combiningArr];
+    return [combiningArr copy];
 }
 
 @end

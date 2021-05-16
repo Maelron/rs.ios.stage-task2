@@ -4,7 +4,6 @@
 
 - (NSArray *)twoDimensionalSort:(NSArray<NSArray *> *)array {
     if (![array.firstObject isKindOfClass:[NSArray class]]) {
-        NSLog(@"first element is not an array");
         return @[];
     }
     
